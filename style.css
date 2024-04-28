@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+/* Header Start */
+.top-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: auto;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+.top-heading {
+    margin-left: 20%;
+}
+.top-dropdown {
+    margin-left: 20px;
+}
+/* Header End */
+/* Navbar Start */
+.navbar {
+    display: flex;
+    padding: 2% 8%;
+    justify-content: space-between;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    column-gap: 55px;
+    margin-right: 12%;
+}
+
+.active {
+    border-bottom: 3px solid #828288;
+    margin-bottom: 20px;
+}
+
+.navbar-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    color: #828288; 
+    padding: 4px 8px;
+    border: none;
+}
+
+i {
+    color: #828288;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    color: #828288;
+}
+
+.icons img {
+    align-items: center;
+}
+
+/* hr {
+    border: 0.25px solid #828288;
+} */
+/* Navbar End */
+/* Hero Start */
+.hero {
+    padding: 0 8%;
+    display: flex;
+}
+.hero-left {
+    display: flex;
+    width: 20%;
+    
+}
+
+.hero-left ul {
+    margin-top: 20px;
+}
+.hero-left ul li{
+    list-style: none; 
+    margin-top: 22px;  
+}
+
+.dropdown-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-right {
+    margin-left: 30px;
+}
+.vl {
+    border-left: 0.5px solid #a1a1a1;
+    height: 430px;
+    left: 30%;
+    margin-left: -1px;
+    margin-top: 0;
+}
+.hero-right {
+    width: 80%;
+    height: 396px;
+    margin: 40px 0 0 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    width: auto;
+    margin: 50px 50px;
+    color: white;
+}
+.hero-right img {
+    width: 496px;
+    height: 395px;
+}
+.iphone {
+    display: flex;
+    color: #a1a1a1;
+}
+
+.iphone img {
+    width: 40px;
+    height: 49px;
+}
+.iphone h2 {
+    margin: 20px 0 20px 20px;
+}
+
+.heading h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.shop h3 {
+    color: #FFFF;
+    border-bottom: 3px solid #FFFF;
+    display: flex;
+    width: 80px;
+    margin-bottom: 20px;
+}
+.shop h3 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+/* Hero End */
