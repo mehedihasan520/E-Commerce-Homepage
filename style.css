@@ -134,7 +134,7 @@ input {
 }
 .hero-right img {
     width: 496px;
-    height: 395px;
+    height: 390px;
 }
 .iphone {
     display: flex;
@@ -169,3 +169,105 @@ input {
 }
 
 /* Hero End */
+/* Flash Sales Start */
+.flash-sales {
+    padding: 0 8%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.flash-sales-left {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flash-heading h4 {
+    color: #DB4444;
+    display: flex;
+}
+.flash-heading img {
+    margin-right: 20px;
+}
+.flash-heading h1 {
+    margin-top: 20px;
+}
+.flash-time {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 45px;
+    column-gap: 10px;
+}
+.time {
+    display: flex;
+    column-gap: 10px;
+}
+.time img {
+    width: 4px;
+    height: 16px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.flash-sales-right {
+    width: 50%;
+    padding-left: 470px;
+    padding-top: 50px;  
+} 
+
+/* Flash Sales End */
+/* All Products Start */
+.all-products-container {
+    margin-left: 8%;
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.products-card {
+    width: 270px;
+    height: 350px;
+}
+
+.card-details {
+    width: 200px;
+    height: 84px;
+    padding: 10px 0;
+}
+
+.Products-btn {
+    margin: 2% 8%;
+}
+
+.price {
+    display: flex;
+    padding: 10px 0;
+    column-gap: 10px;
+}
+
+.rating {
+    display: flex;
+    column-gap: 10px;
+}
+
+.present {
+    color: #DB4444;
+}
+
+.previous {
+    color: #a1a1a1;
+}
+
+.quantity {
+    color: #a1a1a1;
+}
+.Products-btn {
+    padding: 10px 20px;
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 4% 42%;
+}
+/* All Products End */
