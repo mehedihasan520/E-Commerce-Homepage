@@ -270,4 +270,92 @@ input {
     justify-content: center;
     margin: 4% 42%;
 }
+.hr {
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 2%;
+}
 /* All Products End */
+/* Browse Categories Start */
+.browse-categories {
+    padding: 0 8%;
+    margin-top: 5%;
+    display: flex;
+}
+.browse-categories-left {
+    width: 50%;
+}
+.browse-categories-heading img {
+    margin-right: 20px;
+}
+.browse-categories-heading h4 {
+    margin-right: 20px;
+}
+.browse-categories-right {
+    width: 50%;
+    padding-left: 470px;
+    padding-top: 50px;
+}
+.browse-card-container {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between; 
+}
+.browse-card, .camera {
+    width: 170px;
+    height: 145px;
+    border: 1px solid #a1a1a1;
+    border-radius: 4px;
+    position: relative;
+}
+.browse-card img {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.browse-card p {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+.camera {
+    background-color: #DB4444;
+    border: none;
+    color: white;
+}
+/* Browse Categories End */
+/* Best Salling Products Start */
+.best-salling-products {
+    padding: 0 8%;
+    margin-top: 5%;
+    display: flex;
+}
+.best-salling-products-left {
+    width: 50%;
+}
+.best-salling-products-heading img {
+    margin-right: 20px;
+}
+.best-salling-products-heading h4 {
+    margin-right: 20px;
+}
+.best-salling-products-right {
+    width: 50%;
+    padding-left: 450px;
+    padding-top: 40px;
+}
+.view-all {
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    color: white;
+    border: none;
+}
+.best-salling-products-card-container {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+/* Best Salling Products End */
+/* Music Experience Start */
+/* Music Experience End */
