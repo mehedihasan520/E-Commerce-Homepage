@@ -467,3 +467,34 @@ input {
     margin: 4% 42%;
 }
 /* Our All Products End */
+/* New Arrival Start */
+.featured {
+    padding: 2% 8%; 
+}
+.featured img {
+    margin-right: 20px;
+}
+.featured h4 {
+    margin-right: 20px;
+}
+.new-arrival-card-container {
+    padding: 2% 8%;
+}
+.new-arrival-card {
+    
+}
+.arrival-img {
+    width: 570px;
+    height: 600px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 89px 0;
+    position: relative;
+}
+.arrival-heading {
+    color: #FFFF;
+    position: absolute;
+    bottom: 20px;
+}
+/* New Arrival End */
