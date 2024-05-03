@@ -559,3 +559,43 @@ input {
     padding-top: 20px;
 }
 /* Service End */
+/* Footer Start */
+.footer{
+    width: 100%;
+    height: 440px;
+    background-color: #0D0D0D;
+    color: #FFFF;
+    padding: 8% 8%;
+}
+.executive form {
+    width: 200px;
+    height: 48px;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    color: #828288; 
+    padding: 4px 8px;
+    background-color: #0D0D0D;
+}
+.executive input {
+    position: relative;
+    background-color: #0D0D0D;
+}
+.executive a {
+    position: absolute;
+    border-radius: 10px;
+    color: #828288; 
+    padding: 8px 8px;
+    left: 160px;
+    background-color: #0D0D0D;
+}
+.executive h2 h3 p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.copyright {
+    background-color: #0D0D0D;
+    text-align: center;
+    padding: 2% 0%;
+}
+
+/* Footer End */
